@@ -1,0 +1,54 @@
+body {
+    background-color: tomato;
+    font-family: 'Montserrat', 'sans-serif';
+    min-height: 100vh;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.timer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    background-color: #015c56;
+    border-radius: 50px;
+    padding: 30px 20px;
+    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.15), 0 15px 90px 30px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    width: 256px;
+    min-width: 90px;
+}
+
+.value {
+    color: #fff;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+}
+
+.label {
+    color: rgba(255, 255, 255, 0.35);
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    margin-top: 10px;
+}
+
+label {
+    margin-right: 0px;
+}
+
+p {
+    display: inline-flex;
+}
+
+button {
+    margin-top: 16px;
+}
+
+input {
+    text-align: center;
+}
