@@ -1,0 +1,45 @@
+body {
+    text-align: left;
+    position: static;
+    left: 0;
+    top: 0;
+    transform: translate(0%, 0%);
+
+    background: teal;
+    min-height: 100vh;
+    font-family: 'Montserrat', 'sans-serif';
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+label,
+button {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 8px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+label {
+    margin-right: 16px;
+}
+
+p {
+    display: inline-flex;
+}
+
+button {
+  justify-content: center;
+    background-image: linear-gradient(90deg, #00ff22 0, #fbff00 100%);
+    border: black 4px solid;
+  font-family: 'Montserrat', 'sans-serif';
+  color: #fff;
+  font-size: 1.2rem;
+}
